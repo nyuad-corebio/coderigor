@@ -1,7 +1,7 @@
 # Bad Example 
 library(tidyverse)
 preprocess_data <- function(input_data) {
-  # Simple preprocessing: Filter data
+  # Simple preprocessing:
   threshold_sepal_length <- 5.5
   cleaned_data <- input_data %>% 
     # Good practice: Chaining operations
